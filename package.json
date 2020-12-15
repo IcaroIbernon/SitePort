@@ -4,7 +4,7 @@
   "description": "Projeto de site para portfólio.",
   "main": "index.js",
   "scripts": {
-    "dev":"next dev"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,11 @@
   },
   "homepage": "https://github.com/IcaroIbernon/SitePort#readme",
   "dependencies": {
+    "autoprefixer": "^10.1.0",
     "next": "^10.0.3",
+    "postcss": "^8.2.1",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "tailwindcss": "^2.0.2"
   }
 }
