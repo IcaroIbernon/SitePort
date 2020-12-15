@@ -1,0 +1,27 @@
+{
+  "name": "site",
+  "version": "1.0.0",
+  "description": "Projeto de site para portfólio.",
+  "main": "index.js",
+  "scripts": {
+    "dev":"next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IcaroIbernon/SitePort.git"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Ícaro Ibernon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IcaroIbernon/SitePort/issues"
+  },
+  "homepage": "https://github.com/IcaroIbernon/SitePort#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
