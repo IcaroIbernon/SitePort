@@ -2,6 +2,7 @@ import { useState } from "react";
 import Typical from "react-typical";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
+import Stack from "./stack";
 
 function Home() {
   return (
@@ -17,7 +18,7 @@ function Home() {
 
 function Navbar() {
   return (
-    <div className="z-10" style={{ background: "#091c29" }}>
+    <div className="z-10 w-min-screen" style={{ background: "#091c29" }}>
       <div className="flex items-center justify-between w-11/12 mx-auto py-3 text-white">
         <h1 className="text-2xl font-bold">Bem vindo!</h1>
         <a href="#Contato">Contato</a>
@@ -28,24 +29,27 @@ function Navbar() {
 
 function Corpo() {
   return (
-    <div className="flex flex-grow h-full items-center justify-right text-white">
+    <div className="flex flex-grow flex-col md:flex-row h-full w-min-screen md:items-center justify-right text-white">
       <Image
         className="z-0"
-        src="/circuit-board.svg"
+        src="/Cb.svg"
         layout="fill"
         objectFit="cover"
         quality={100}
       />
-      <h1 className="z-10 mx-10 text-xl">
+      <h1 className="z-10 mt-10 md:mt-0 mx-10 items-center text-md sm:h-1/2 sm:w-full md:text-3xl md:w-1/2">
         Olá meu nome é
         <br />
         <b>Ícaro Ibernon</b>
         <br />e eu sou um:
+        <br /> Dev
         {/*<Typical
           steps={["Desenvolvedor", 750, "Desenvolvedor Web 📄", 500,"Desenvolvedor Backend 🔧", 500, "Desenvolvedor Mobile 📱", 500]}
           loop={Infinity}
         />*/}
       </h1>
+      <Stack/>
+      
     </div>
   );
 }
