@@ -3,6 +3,7 @@ import Typical from "react-typical";
 import "tailwindcss/tailwind.css";
 import Image from "next/image";
 import Stack from "./stack";
+import Contato from "./contato";
 
 function Home() {
   return (
@@ -21,7 +22,7 @@ function Navbar() {
     <div className="z-10 w-min-screen" style={{ background: "#091c29" }}>
       <div className="flex items-center justify-between w-11/12 mx-auto py-3 text-white">
         <h1 className="text-2xl font-bold">Bem vindo!</h1>
-        <a href="#Contato">Contato</a>
+        <Contato />
       </div>
     </div>
   );
@@ -48,8 +49,7 @@ function Corpo() {
           loop={Infinity}
         />*/}
       </h1>
-      <Stack/>
-      
+      <Stack />
     </div>
   );
 }

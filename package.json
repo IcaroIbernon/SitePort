@@ -29,6 +29,7 @@
     "tailwindcss": "^2.0.2"
   },
   "devDependencies": {
-    "file-loader": "^6.2.0"
+    "file-loader": "^6.2.0",
+    "reactjs-popup": "^2.0.4"
   }
 }
