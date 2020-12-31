@@ -11,6 +11,7 @@ function Home() {
       className="min-h-screen flex flex-col"
       style={{ background: "#03121c" }}
     >
+      <title>Ícaro Ibernon - Portfólio</title>
       <Navbar />
       <Corpo />
     </div>
@@ -44,10 +45,10 @@ function Corpo() {
         <b>Ícaro Ibernon</b>
         <br />e eu sou um:
         <br /> Dev
-        {/*<Typical
+        <Typical
           steps={["Desenvolvedor", 750, "Desenvolvedor Web 📄", 500,"Desenvolvedor Backend 🔧", 500, "Desenvolvedor Mobile 📱", 500]}
           loop={Infinity}
-        />*/}
+        />*
       </h1>
       <Stack />
     </div>
